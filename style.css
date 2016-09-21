@@ -1,0 +1,206 @@
+html{
+}
+html body{
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.3em;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 300px;
+}
+
+p{
+  margin-bottom: 0.5em;
+}
+
+a{
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+}
+a:hover{
+  border-color: black;
+}
+
+header.site-header{
+  background-color: #333333;
+}
+header.site-header a{
+  background-image: url(images/phable-white.svg);
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  border: none;
+  display: block;
+  height: 8vw;
+  margin-left: 2vw;
+  max-height: 80px;
+  max-width: 190px;
+  text-indent: -9999px;
+  width: 30vw;
+}
+
+
+section, footer .footer-inner, section.intro .intro-inner{
+  padding: 0 5vw;
+}
+@media (min-width: 768px) {
+  section, footer .footer-inner, section.intro .intro-inner{
+    padding: 0 30vw;
+    width: 40vw;
+  }
+}
+section{
+  margin-top: 83px;
+}
+  section a{
+    border-color: transparent;
+    border-width: 3px;
+    font-weight: 900;
+    transition: border-color 200ms;
+  }
+  section a:hover{
+    border-color: black;
+  }
+  section h2{
+    font-weight: 400;
+    height: 5vw;
+    margin-bottom: 1em;
+    max-height: 55px;
+    min-height: 30px;
+    width: 100%;
+  }
+
+
+section.intro{
+  background-image: url(images/header.png);
+  background-position-y: 87%;
+  background-repeat: repeat-x;
+  background-size: 1px 150%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+}
+  section.intro .intro-inner{
+  }
+  section.intro .wrapper{
+    height: 46vw;
+    margin: 0 auto;
+    margin: 12vw 30vw 19vw 5vw;
+    position: relative;
+  }
+  @media (min-width: 768px) {
+    section.intro .wrapper{
+      height: 26vw;
+      margin: 7vw 30vw 12vw;
+    }
+  }
+  section.intro h1{
+    background-image: url(images/slogan.svg);
+    background-origin: content-box;
+    background-position: 28% 50%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 110%;
+    left: 0;
+    max-width: 1000px;
+    position: absolute;
+    text-indent: -9999px;
+    top: 0;
+    vertical-align: top;
+    width: 50%;
+  }
+  @media (min-width: 768px) {
+    section.intro h1{
+      height: 100%;
+    }
+  }
+  section.intro .decoration{
+    /*margin: -36vw 3vw -36vw 10vw;*/
+    background-image: url(images/bulb.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    height: 110vw;
+    position: absolute;
+    left: 15vw;
+    top: -36vw;
+    width: 120vw;
+  }
+  @media (min-width: 768px) {
+    section.intro .decoration{
+      height: 90vw;
+      left: 3vw;
+      /*margin: -36vw 3vw;*/
+      width: 70vw;
+    }
+  }
+
+section.about{}
+  section.about h2{
+    background: url(images/h-about-us.svg) 0 bottom no-repeat;
+    text-indent: -9999px;
+  }
+
+section.contact{}
+  section.contact h2{
+    background: url(images/h-talk-to-us.svg) 0 bottom no-repeat;
+    text-indent: -9999px;
+  }
+  section.contact input,
+  section.contact textarea
+  {
+    border: 2px #333 solid;
+    box-sizing: border-box;
+    display: block;
+    font-size: 1em;
+    margin-bottom: 10px;
+    max-width: 500px;
+    padding: 20px 10px;
+    width: 100%;
+  }
+  section.contact input{
+    height: 30px;
+  }
+  section.contact label{
+    font-size: 0.8em;
+  }
+  section.contact input[type="submit"]{
+    background-color: #58595b;
+    border: none;
+    color: white;
+    font-weight: 400;
+    height: 44px;
+    margin-top: 20px;
+    padding: 0 0 3px;
+    width: 100px;
+  }
+  section.contact input[name="_gotcha"]{
+    display: none;
+  }
+
+
+footer{
+  background-color: #e5e5e5;
+  margin-top: 83px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+  footer .logo{
+    background-image: url(images/phable-black.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 25px;
+    margin-bottom: 10px;
+    text-indent: -9999px;
+    width: 113px;
+  }
+  footer p{
+    font-size: 0.7em;
+    line-height: 1em;
+    opacity: 0.5;
+  }
