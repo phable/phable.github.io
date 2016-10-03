@@ -30,6 +30,7 @@ header.site-header{
   header.site-header .thumbnail{
     width: 1px;
     height: 0;
+    overflow: hidden;
   }
   header.site-header a{
     background-image: url(images/phable-white.svg);
