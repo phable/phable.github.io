@@ -27,20 +27,23 @@ a:hover{
 header.site-header{
   background-color: #333333;
 }
-header.site-header a{
-  background-image: url(images/phable-white.svg);
-  background-position: 0 50%;
-  background-repeat: no-repeat;
-  background-size: 70%;
-  border: none;
-  display: block;
-  height: 8vw;
-  margin-left: 2vw;
-  max-height: 80px;
-  max-width: 190px;
-  text-indent: -9999px;
-  width: 30vw;
-}
+  header.site-header .thumbnail{
+    display: none;
+  }
+  header.site-header a{
+    background-image: url(images/phable-white.svg);
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    border: none;
+    display: block;
+    height: 8vw;
+    margin-left: 2vw;
+    max-height: 80px;
+    max-width: 190px;
+    text-indent: -9999px;
+    width: 30vw;
+  }
 
 
 section, footer .footer-inner, section.intro .intro-inner{
