@@ -28,7 +28,8 @@ header.site-header{
   background-color: #333333;
 }
   header.site-header .thumbnail{
-    display: none;
+    width: 1px;
+    height: 0;
   }
   header.site-header a{
     background-image: url(images/phable-white.svg);
